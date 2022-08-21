@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-image: url(https://www.rd.com/wp-content/uploads/2019/09/fahrenheit-vs-celsius-scaled.jpg?resize=1900,750);
+}
+
+.conversions {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-height: 650px;
+    max-width: 300px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+header {
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+hr {
+    height: 3px;
+    margin: 30px -21px 20px;
+    background-color: black;
+    border-color: black;
+}
+
+h1, h3, h4, p {
+    text-align: center;
+}
+
+.cel-buttons, .cel-boxes, .fahr-buttons, .fahr-boxes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cel-boxes div, .fahr-boxes div {
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    width: 100px;
+    margin-top: 5px;
+    background-color: white;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.cel-boxes input, .cel-buttons button, .fahr-boxes input, .fahr-buttons button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border-width: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: block;
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: white;
+}
